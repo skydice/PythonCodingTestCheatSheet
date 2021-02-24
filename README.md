@@ -23,3 +23,13 @@ music_album = [['music1', 'jazz'], ['music2', 'classic'], ['music3', 'jazz']]
 for music in music_album:
   categorized_music[music[1]].append(music[0])
 ```
+
+### `map()`
+`map(fun, iter)`은 주어진 `iter`의 각 개체에 `fun`을 적용하여 `map` 오브젝트를 반환합니다.
+특히 초기 입력을 적절한 타입의 변수들로 바꾸는데 유용합니다.
+
+#### Example
+```
+time = "12:00:00"
+hh, mm, ss = map(int, time.split(":"))
+```
