@@ -33,3 +33,10 @@ for music in music_album:
 time = "12:00:00"
 hh, mm, ss = map(int, time.split(":"))
 ```
+
+### `2D array initialize`
+2D array를 만들어야 하는 경우 아래와 같은 코드로 만들 수 있습니다.
+```
+n = 5
+map = [[0] * n for i in range(n)]
+```
