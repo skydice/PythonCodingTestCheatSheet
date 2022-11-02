@@ -1,4 +1,6 @@
 # 파이썬 코딩 테스트 팁 모음
+## 유용한 사이트
+- https://pythontutor.com/ 어떻게 동작하는지 시각적으로 확인할 수 있음
 ## Basic
 ### `defaultdict`
 `defaultdict`는 `dict`와 거의 유사하지만 `KeyError`를 발생시키지 않습니다. Key가 없는 경우 default 값을 제공하기 때문입니다. 아래와 같이 default가 `list`가 되도록 하면 코드를 간소화할 수 있습니다.
