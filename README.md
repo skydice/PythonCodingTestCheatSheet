@@ -42,3 +42,8 @@ hh, mm, ss = map(int, time.split(":"))
 n = 5
 map = [[0] * n for i in range(n)]
 ```
+
+### 리스트 중 가장 짧은 단어의 길이 구하기
+```
+shortest = min(strs,key=len)
+```
